@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -122,120 +122,126 @@
 </packages>
 <symbols>
 <symbol name="MC9S12GC32CFAE">
-<pin name="PW0/IOC0/PT0" x="-40.64" y="27.94" length="middle"/>
-<pin name="PW1/IOC1/PT1" x="-40.64" y="22.86" length="middle"/>
-<pin name="PPW2/IOC2/PT2" x="-40.64" y="17.78" length="middle"/>
-<pin name="PW3/IOC3/PT3" x="-40.64" y="12.7" length="middle"/>
-<pin name="VDD1" x="-40.64" y="7.62" length="middle"/>
-<pin name="VSS1" x="-40.64" y="2.54" length="middle"/>
-<pin name="PW4/IOC4/PT4" x="-40.64" y="-2.54" length="middle"/>
-<pin name="IOC5/PT5" x="-40.64" y="-7.62" length="middle"/>
-<pin name="IOC6/PT6" x="-40.64" y="-12.7" length="middle"/>
-<pin name="IOC7/PT7" x="-40.64" y="-17.78" length="middle"/>
-<pin name="MODC/BKGD" x="-40.64" y="-22.86" length="middle"/>
-<pin name="PB4" x="-40.64" y="-27.94" length="middle"/>
-<wire x1="-35.56" y1="35.56" x2="-35.56" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="-35.56" y1="-35.56" x2="35.56" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-35.56" x2="35.56" y2="35.56" width="0.254" layer="94"/>
-<wire x1="35.56" y1="35.56" x2="-35.56" y2="35.56" width="0.254" layer="94"/>
-<pin name="P13" x="-27.94" y="-40.64" length="middle" rot="R90"/>
-<pin name="P14" x="-22.86" y="-40.64" length="middle" rot="R90"/>
-<pin name="P15" x="-17.78" y="-40.64" length="middle" rot="R90"/>
-<pin name="P16" x="-12.7" y="-40.64" length="middle" rot="R90"/>
-<pin name="P17" x="-7.62" y="-40.64" length="middle" rot="R90"/>
-<pin name="P18" x="-2.54" y="-40.64" length="middle" rot="R90"/>
-<pin name="P19" x="2.54" y="-40.64" length="middle" rot="R90"/>
-<pin name="P20" x="7.62" y="-40.64" length="middle" rot="R90"/>
-<pin name="P21" x="12.7" y="-40.64" length="middle" rot="R90"/>
-<pin name="P22" x="17.78" y="-40.64" length="middle" rot="R90"/>
-<pin name="P23" x="22.86" y="-40.64" length="middle" rot="R90"/>
-<pin name="P24" x="27.94" y="-40.64" length="middle" rot="R90"/>
-<pin name="P25" x="40.64" y="-27.94" length="middle" rot="R180"/>
-<pin name="P26" x="40.64" y="-22.86" length="middle" rot="R180"/>
-<pin name="P27" x="40.64" y="-17.78" length="middle" rot="R180"/>
-<pin name="P28" x="40.64" y="-12.7" length="middle" rot="R180"/>
-<pin name="P29" x="40.64" y="-7.62" length="middle" rot="R180"/>
-<pin name="P30" x="40.64" y="-2.54" length="middle" rot="R180"/>
-<pin name="P31" x="40.64" y="2.54" length="middle" rot="R180"/>
-<pin name="P32" x="40.64" y="7.62" length="middle" rot="R180"/>
-<pin name="P33" x="40.64" y="12.7" length="middle" rot="R180"/>
-<pin name="P34" x="40.64" y="17.78" length="middle" rot="R180"/>
-<pin name="P35" x="40.64" y="22.86" length="middle" rot="R180"/>
-<pin name="P36" x="40.64" y="27.94" length="middle" rot="R180"/>
-<pin name="P37" x="27.94" y="40.64" length="middle" rot="R270"/>
-<pin name="P38" x="22.86" y="40.64" length="middle" rot="R270"/>
-<pin name="P39" x="17.78" y="40.64" length="middle" rot="R270"/>
-<pin name="P40" x="12.7" y="40.64" length="middle" rot="R270"/>
-<pin name="P41" x="7.62" y="40.64" length="middle" rot="R270"/>
-<pin name="P42" x="2.54" y="40.64" length="middle" rot="R270"/>
-<pin name="P43" x="-2.54" y="40.64" length="middle" rot="R270"/>
-<pin name="P44" x="-7.62" y="40.64" length="middle" rot="R270"/>
-<pin name="P45" x="-12.7" y="40.64" length="middle" rot="R270"/>
-<pin name="P46" x="-17.78" y="40.64" length="middle" rot="R270"/>
-<pin name="P47" x="-22.86" y="40.64" length="middle" rot="R270"/>
-<pin name="P48" x="-27.94" y="40.64" length="middle" rot="R270"/>
+<pin name="PW0/IOC0/PT0" x="-35.56" y="27.94" length="middle"/>
+<pin name="PW1/IOC1/PT1" x="-35.56" y="22.86" length="middle"/>
+<pin name="PPW2/IOC2/PT2" x="-35.56" y="17.78" length="middle"/>
+<pin name="PW3/IOC3/PT3" x="-35.56" y="12.7" length="middle"/>
+<pin name="VDD1" x="-35.56" y="7.62" length="middle"/>
+<pin name="VSS1" x="-35.56" y="2.54" length="middle"/>
+<pin name="PW4/IOC4/PT4" x="-35.56" y="-2.54" length="middle"/>
+<pin name="IOC5/PT5" x="-35.56" y="-7.62" length="middle"/>
+<pin name="IOC6/PT6" x="-35.56" y="-12.7" length="middle"/>
+<pin name="IOC7/PT7" x="-35.56" y="-17.78" length="middle"/>
+<pin name="MODC/BKGD" x="-35.56" y="-22.86" length="middle"/>
+<pin name="PB4" x="-35.56" y="-27.94" length="middle"/>
+<wire x1="-30.48" y1="43.18" x2="-30.48" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-43.18" x2="30.48" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-43.18" x2="30.48" y2="43.18" width="0.254" layer="94"/>
+<wire x1="30.48" y1="43.18" x2="-30.48" y2="43.18" width="0.254" layer="94"/>
+<pin name="XCLK'/PE7" x="-27.94" y="-48.26" length="middle" rot="R90"/>
+<pin name="ECLK/PE4" x="-22.86" y="-48.26" length="middle" rot="R90"/>
+<pin name="VSSR" x="-17.78" y="-48.26" length="middle" rot="R90"/>
+<pin name="VDDR" x="-12.7" y="-48.26" length="middle" rot="R90"/>
+<pin name="RESET'" x="-7.62" y="-48.26" length="middle" rot="R90"/>
+<pin name="VDDPLL" x="-2.54" y="-48.26" length="middle" rot="R90"/>
+<pin name="XFC" x="2.54" y="-48.26" length="middle" rot="R90"/>
+<pin name="VSSPLL" x="7.62" y="-48.26" length="middle" rot="R90"/>
+<pin name="EXTAL" x="12.7" y="-48.26" length="middle" rot="R90"/>
+<pin name="XTAL" x="17.78" y="-48.26" length="middle" rot="R90"/>
+<pin name="TEST/VPP" x="22.86" y="-48.26" length="middle" rot="R90"/>
+<pin name="IRQ'/PE1" x="27.94" y="-48.26" length="middle" rot="R90"/>
+<pin name="XIRQ'/PE0" x="35.56" y="-27.94" length="middle" rot="R180"/>
+<pin name="PA0" x="35.56" y="-22.86" length="middle" rot="R180"/>
+<pin name="PAD00/AN01" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="PAD01/AN01" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="PAD02/AN02" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="PAD03/AN03" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="PAD04/AN04" x="35.56" y="2.54" length="middle" rot="R180"/>
+<pin name="PAD05/AN05" x="35.56" y="7.62" length="middle" rot="R180"/>
+<pin name="PAD06/AN06" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="PAD07/AN07" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="VDDA" x="35.56" y="22.86" length="middle" rot="R180"/>
+<pin name="VRH" x="35.56" y="27.94" length="middle" rot="R180"/>
+<pin name="VSSA" x="27.94" y="48.26" length="middle" rot="R270"/>
+<pin name="PS0/RXD" x="22.86" y="48.26" length="middle" rot="R270"/>
+<pin name="PS1/TXD" x="17.78" y="48.26" length="middle" rot="R270"/>
+<pin name="PM5/SCK" x="12.7" y="48.26" length="middle" rot="R270"/>
+<pin name="PM4/MOSI" x="7.62" y="48.26" length="middle" rot="R270"/>
+<pin name="PM3/SS'" x="2.54" y="48.26" length="middle" rot="R270"/>
+<pin name="PM2/MISO" x="-2.54" y="48.26" length="middle" rot="R270"/>
+<pin name="PM1/TXCAN" x="-7.62" y="48.26" length="middle" rot="R270"/>
+<pin name="PM0/RXCAN" x="-12.7" y="48.26" length="middle" rot="R270"/>
+<pin name="VSSX" x="-17.78" y="48.26" length="middle" rot="R270"/>
+<pin name="VDDX" x="-22.86" y="48.26" length="middle" rot="R270"/>
+<pin name="PP5/KWP5" x="-27.94" y="48.26" length="middle" rot="R270"/>
 <text x="-12.7" y="0" size="1.778" layer="94">MC9S12GC32CFAE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="MC9S12GC32CFAE">
+<description>MCS9S12GC32CFAE microcontroller
+Freescale HCS12 based 32 bit MCU, QFP48 package, 25MHz</description>
 <gates>
 <gate name="G$1" symbol="MC9S12GC32CFAE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFP50P900X900X160-48N">
 <connects>
+<connect gate="G$1" pin="ECLK/PE4" pad="14"/>
+<connect gate="G$1" pin="EXTAL" pad="21"/>
 <connect gate="G$1" pin="IOC5/PT5" pad="8"/>
 <connect gate="G$1" pin="IOC6/PT6" pad="9"/>
 <connect gate="G$1" pin="IOC7/PT7" pad="10"/>
+<connect gate="G$1" pin="IRQ'/PE1" pad="24"/>
 <connect gate="G$1" pin="MODC/BKGD" pad="11"/>
-<connect gate="G$1" pin="P13" pad="13"/>
-<connect gate="G$1" pin="P14" pad="14"/>
-<connect gate="G$1" pin="P15" pad="15"/>
-<connect gate="G$1" pin="P16" pad="16"/>
-<connect gate="G$1" pin="P17" pad="17"/>
-<connect gate="G$1" pin="P18" pad="18"/>
-<connect gate="G$1" pin="P19" pad="19"/>
-<connect gate="G$1" pin="P20" pad="20"/>
-<connect gate="G$1" pin="P21" pad="21"/>
-<connect gate="G$1" pin="P22" pad="22"/>
-<connect gate="G$1" pin="P23" pad="23"/>
-<connect gate="G$1" pin="P24" pad="24"/>
-<connect gate="G$1" pin="P25" pad="25"/>
-<connect gate="G$1" pin="P26" pad="26"/>
-<connect gate="G$1" pin="P27" pad="27"/>
-<connect gate="G$1" pin="P28" pad="28"/>
-<connect gate="G$1" pin="P29" pad="29"/>
-<connect gate="G$1" pin="P30" pad="30"/>
-<connect gate="G$1" pin="P31" pad="31"/>
-<connect gate="G$1" pin="P32" pad="32"/>
-<connect gate="G$1" pin="P33" pad="33"/>
-<connect gate="G$1" pin="P34" pad="34"/>
-<connect gate="G$1" pin="P35" pad="35"/>
-<connect gate="G$1" pin="P36" pad="36"/>
-<connect gate="G$1" pin="P37" pad="37"/>
-<connect gate="G$1" pin="P38" pad="38"/>
-<connect gate="G$1" pin="P39" pad="39"/>
-<connect gate="G$1" pin="P40" pad="40"/>
-<connect gate="G$1" pin="P41" pad="41"/>
-<connect gate="G$1" pin="P42" pad="42"/>
-<connect gate="G$1" pin="P43" pad="43"/>
-<connect gate="G$1" pin="P44" pad="44"/>
-<connect gate="G$1" pin="P45" pad="45"/>
-<connect gate="G$1" pin="P46" pad="46"/>
-<connect gate="G$1" pin="P47" pad="47"/>
-<connect gate="G$1" pin="P48" pad="48"/>
+<connect gate="G$1" pin="PA0" pad="26"/>
+<connect gate="G$1" pin="PAD00/AN01" pad="27"/>
+<connect gate="G$1" pin="PAD01/AN01" pad="28"/>
+<connect gate="G$1" pin="PAD02/AN02" pad="29"/>
+<connect gate="G$1" pin="PAD03/AN03" pad="30"/>
+<connect gate="G$1" pin="PAD04/AN04" pad="31"/>
+<connect gate="G$1" pin="PAD05/AN05" pad="32"/>
+<connect gate="G$1" pin="PAD06/AN06" pad="33"/>
+<connect gate="G$1" pin="PAD07/AN07" pad="34"/>
 <connect gate="G$1" pin="PB4" pad="12"/>
+<connect gate="G$1" pin="PM0/RXCAN" pad="45"/>
+<connect gate="G$1" pin="PM1/TXCAN" pad="44"/>
+<connect gate="G$1" pin="PM2/MISO" pad="43"/>
+<connect gate="G$1" pin="PM3/SS'" pad="42"/>
+<connect gate="G$1" pin="PM4/MOSI" pad="41"/>
+<connect gate="G$1" pin="PM5/SCK" pad="40"/>
+<connect gate="G$1" pin="PP5/KWP5" pad="48"/>
 <connect gate="G$1" pin="PPW2/IOC2/PT2" pad="3"/>
+<connect gate="G$1" pin="PS0/RXD" pad="38"/>
+<connect gate="G$1" pin="PS1/TXD" pad="39"/>
 <connect gate="G$1" pin="PW0/IOC0/PT0" pad="1"/>
 <connect gate="G$1" pin="PW1/IOC1/PT1" pad="2"/>
 <connect gate="G$1" pin="PW3/IOC3/PT3" pad="4"/>
 <connect gate="G$1" pin="PW4/IOC4/PT4" pad="7"/>
+<connect gate="G$1" pin="RESET'" pad="17"/>
+<connect gate="G$1" pin="TEST/VPP" pad="23"/>
 <connect gate="G$1" pin="VDD1" pad="5"/>
+<connect gate="G$1" pin="VDDA" pad="35"/>
+<connect gate="G$1" pin="VDDPLL" pad="18"/>
+<connect gate="G$1" pin="VDDR" pad="16"/>
+<connect gate="G$1" pin="VDDX" pad="47"/>
+<connect gate="G$1" pin="VRH" pad="36"/>
 <connect gate="G$1" pin="VSS1" pad="6"/>
+<connect gate="G$1" pin="VSSA" pad="37"/>
+<connect gate="G$1" pin="VSSPLL" pad="20"/>
+<connect gate="G$1" pin="VSSR" pad="15"/>
+<connect gate="G$1" pin="VSSX" pad="46"/>
+<connect gate="G$1" pin="XCLK'/PE7" pad="13"/>
+<connect gate="G$1" pin="XFC" pad="19"/>
+<connect gate="G$1" pin="XIRQ'/PE0" pad="25"/>
+<connect gate="G$1" pin="XTAL" pad="22"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ARROWLINK" value="https://www.arrow.com/en/products/mc9s12gc32cfae/nxp-semiconductors"/>
+<attribute name="PN" value="MC9S12GC32CFAE"/>
+<attribute name="UNITPRICE_ARROW" value="$7.395"/>
+</technology>
 </technologies>
 </device>
 </devices>
